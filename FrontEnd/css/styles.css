@@ -1,0 +1,183 @@
+/* Reset de margens e preenchimentos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno */
+    display: flex; /* Flex container para layout flexível */
+    align-items: center; /* Alinhar itens verticalmente */
+    justify-content: space-between; /* Espaço entre os itens */
+}
+nav .logo a {
+    display: block; /* Exibe a logo como um bloco */
+    height: 60px; /* Altura da logo */
+}
+nav .logo img {
+    height: 100%; /* Altura da logo */
+    border-radius: 50%; /* Borda arredondada */
+    margin-left: 20px; /* Espaçamento à esquerda */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    display: flex; /* Exibe os itens na mesma linha */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+
+/* Estilo para a seção home */
+#home {
+    background-image: url('../images/jeferson-gomes-KSoibTNlh58-unsplash.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Cobrir toda a área */
+    background-position: center; /* Posição centralizada */
+    height: 100vh; /* Altura total da viewport */
+    display: flex; /* Flexbox para centralizar conteúdo */
+    align-items: center; /* Alinhar verticalmente */
+    justify-content: center; /* Alinhar horizontalmente */
+    text-align: center; /* Alinhar texto ao centro */
+    color: #fff; /* Cor do texto */
+}
+
+.hero-text {
+    max-width: 600px; /* Largura máxima do texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+}
+
+.hero-text h1 {
+    font-size: 3em; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.hero-text p {
+    font-size: 1.5em; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 0; /* Remove margem inferior */
+}
+/* Estilos para a seção Sobre */
+.about {
+    background-color: #f2f2f2; /* Cor de fundo */
+    padding: 50px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Alinhar texto ao centro */
+    color: #333; /* Cor do texto */
+}
+
+.about-content {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo semi-transparente */
+    border-radius: 5px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.about-content h2 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.about-content p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Altura da linha */
+}
+
+.about-content ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.about-content ul li {
+    margin-bottom: 10px; /* Espaçamento inferior entre itens */
+}
+
+
+/* Estilos para a seção de produtos */
+.shop {
+    padding: 50px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Alinhar texto ao centro */
+    background-color: #f2f2f2; /* Cor de fundo */
+}
+
+.products {
+    display: flex; /* Flexbox para alinhar produtos */
+    justify-content: center; /* Alinhar horizontalmente */
+    flex-wrap: wrap; /* Quebra de linha automática */
+    gap: 20px; /* Espaço entre os produtos */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.product {
+    max-width: 300px; /* Largura máxima do produto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda sólida */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Alinhar texto ao centro */
+}
+
+.product img {
+    max-width: 100%; /* Imagem ajustada à largura do contêiner */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.product h3 {
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+.product p {
+    color: #666; /* Cor do texto do produto */
+}
+
+.product button {
+    margin-top: 10px; /* Espaçamento superior */
+    padding: 10px 20px; /* Preenchimento interno */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar */
+}
+
+.product button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhar texto ao centro */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+    position: absolute; /* Posição absoluta */
+    bottom: 0; /* Alinhar ao final da página */
+    width: 100%; /* Largura total */
+}
+
+
